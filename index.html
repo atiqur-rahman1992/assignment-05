@@ -10,7 +10,7 @@
     <!-- tailwindCdn -->
     <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
     <!-- row css -->
-    <link rel="stylesheet" href="style.css">
+    
 </head>
 <body class="bg-slate-100">
     <header>
@@ -28,7 +28,7 @@
                     
                     <img class="w-10 h-8" src="./imgaes/checkbox.png " alt="">
                     <h1 class="font-bold text-2xl i" id="first-h1"> 23 </h1>
-                    <button class="btn">
+                    <button id="random" class="btn">
                         <img src="./imgaes/theme-btn.png" alt="">
                     </button>
                     
@@ -52,73 +52,73 @@
                             <h6>Task Assigned br <br> <span class="font-bold text-3xl" id="sub-value">05</span> </h6>
                            
                         </div>
-                        <div class="bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500  w-[451px] h-[168px] flex rounded-xl">
+                        <div id="change-page" class="bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500  w-[451px] h-[168px] flex rounded-xl cursor-pointer">
                             <img class="p-6" src="./imgaes/board.png" alt="">
                            <p class="p-6">Discover Something New Today!</p>
 
                         </div>
 
-                        <div class="w-[263px] h-[128px] bg-slate-300 rounded-sm ml-35">
+                        <div class="w-[263px] h-[210px] bg-slate-300 rounded-sm ml-35">
                             <img class="p-2" src="./imgaes/calender.png" alt="">
-                            <h1 class="font-bold p-2"> jul 28 2025</h1>
+                            <h1 id="h2-id" class="font-bold p-2"> jul 28 2025</h1>
                         </div>
                        
                 </div>
                 
-                    <div class="sub-container grid grid-cols-3 ml-[150px]  ">
+                    <div class="sub-container grid grid-cols-3 ml-[150px] my-7 ">
                         <div class="border-[2px] w-[400px] h-[350] rounded-md my-5 ">
                             <button class="bg-slate-200  btn">ShopEase</button>
                             <h3>Fix Mobile Button Issue </h3>
                             <p class="bg-slate-500 rounded-sm p-2">Debug using Chrome DevTools, check for overlappin</p>
                             <div class="flex gap-10">
                                 <p>Dead line <br> 21 March 2025</p>
-                                <button class="btn bg-blue-500" id="button-01">Complete</button>
+                                <button id="button-01" class="btn bg-blue-500">Complete</button>
                             </div>
                             </div>
                         <div class="border-[2px] w-[400px] h-[350] rounded-md my-5">
-                            <button class="bg-slate-200  btn">ShopEase</button>
-                            <h3>Fix Mobile Button Issue </h3>
+                            <button class="bg-slate-200  btn">CloudSync</button>
+                            <h3>Add Dark Mode</h3>
                             <p class="bg-slate-500 rounded-sm p-2">Debug using Chrome DevTools, check for overlappin</p>
                             <div class="flex gap-10">
                                 <p>Dead line <br> 21 March 2025</p>
-                                <button class="btn bg-blue-500">Complete</button>
+                                <button id="button-02" class="btn bg-blue-500">Complete</button>
                             </div>
                             </div>
                         <div class="border-[2px] w-[400px] h-[350] rounded-md my-5">
-                            <button class="bg-slate-200  btn">ShopEase</button>
-                            <h3>Fix Mobile Button Issue </h3>
+                            <button class="bg-slate-200  btn">SwiftPay</button>
+                            <h3>Optimize  Home page </h3>
                             <p class="bg-slate-500 rounded-sm p-2">Debug using Chrome DevTools, check for overlappin</p>
                             <div class="flex gap-10">
                                 <p>Dead line <br> 21 March 2025</p>
-                                <button class="btn bg-blue-500">Complete</button>
+                                <button id="button-03" class="btn bg-blue-500">Complete</button>
                             </div>
                             </div>
                         <div class="border-[2px] w-[400px] h-[350] rounded-md">
-                            <button class="bg-slate-200  btn">ShopEase</button>
-                            <h3>Fix Mobile Button Issue </h3>
+                            <button class="bg-slate-200  btn">Meta</button>
+                            <h3>Add new emoji 🤲 </h3>
                             <p class="bg-slate-500 rounded-sm p-2">Debug using Chrome DevTools, check for overlappin</p>
                             <div class="flex gap-10">
                                 <p>Dead line <br> 21 March 2025</p>
-                                <button class="btn bg-blue-500">Complete</button>
+                                <button id="button-04" class="btn bg-blue-500">Complete</button>
                             </div>
                             </div>
                         <div class="border-[2px] w-[400px] h-[350] rounded-md">
-                            <button class="bg-slate-200  btn">ShopEase</button>
-                            <h3>Fix Mobile Button Issue </h3>
+                            <button class="bg-slate-200  btn">Google LLC</button>
+                            <h3>Integrate OpenAI API </h3>
                             <p class="bg-slate-500 rounded-sm p-2">Debug using Chrome DevTools, check for overlappin</p>
                             <div class="flex gap-10">
                                 <p>Dead line <br> 21 March 2025</p>
-                                <button class="btn bg-blue-500">Complete</button>
+                                <button id="button-05" class="btn bg-blue-500">Complete</button>
                             </div>
 
                         </div>
                         <div class="border-[2px] w-[400px] h-[350] rounded-md">
-                            <button class="bg-slate-200  btn">ShopEase</button>
-                            <h3>Fix Mobile Button Issue </h3>
+                            <button class="bg-slate-200  btn">Glassdoar</button>
+                            <h3>Improve Job searching </h3>
                             <p class="bg-slate-500 rounded-sm p-2">Debug using Chrome DevTools, check for overlappin</p>
                             <div class="flex gap-10">
                                 <p>Dead line <br> 21 March 2025</p>
-                                <button class="btn bg-blue-500">Complete</button>
+                                <button id="button-06" class="btn bg-blue-500">Complete</button>
                             </div>
 
                         </div>
@@ -127,12 +127,12 @@
                 </div>
 
 
-                    <div class= "bg-white rounded-xl border-[5px] mt-[10px] h-[800px] w-[250px] ml-8 "  >
+                    <div class= "bg-white rounded-xl border-[5px] mt-[10px] h-[900px] w-[250px] ml-8 "  >
                         <div class="flex p-4 gap-3">
                             <img src="./imgaes/activity.png" alt="">
                             <p>Activity Log</p>
                         </div>
-                        <button class="text-center btn bg-blue-500 ml-6">Clear History</button>
+                        <button id="clear-btn" class="text-center btn bg-blue-500 ml-6">Clear History</button>
                         <!-- <p class="bg-slate-300 text-sm">You have Complete The Task Add Dark Mode at 12:48:15 PM</p>
                         <p class="bg-slate-50 text-sm">You have Complete The Task Add Dark Mode at 12:48:15 PM</p> -->
                         <section id="add-text">
